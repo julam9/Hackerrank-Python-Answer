@@ -1,3 +1,5 @@
+import os
+
 def compareTriplets(a, b):
     p1=0
     p2=0
