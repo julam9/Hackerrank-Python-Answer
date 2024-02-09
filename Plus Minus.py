@@ -1,4 +1,5 @@
 def plusMinus(arr):
+    n = len(arr)
     neg = 0 
     pos = 0 
     zero = 0 
