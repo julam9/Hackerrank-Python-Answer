@@ -1,5 +1,3 @@
-import os
-
 def plusMinus(arr):
     neg = 0 
     pos = 0 
@@ -14,10 +12,3 @@ def plusMinus(arr):
     print('%.6f' % pos_ratio) 
     print('%.6f' % neg_ratio) 
     print('%.6f' % zero_ratio)
-
-if __name__ == '__main__':
-    n = int(input().strip())
-
-    arr = list(map(int, input().rstrip().split()))
-
-    plusMinus(arr)
