@@ -12,5 +12,6 @@ def countingValleys(steps, path):
 
     print(n_valley)
 
+# testing
 countingValleys(8, "UDDDUDUU")
 
